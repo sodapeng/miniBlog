@@ -1,0 +1,24 @@
+{
+  "name": "nodekb",
+  "version": "1.0.0",
+  "description": "simple knowledge based",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "soda",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.1",
+    "connect-flash": "^0.1.1",
+    "express": "^4.15.4",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.5",
+    "express-validator": "^4.2.0",
+    "mongoose": "^4.11.12",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}
